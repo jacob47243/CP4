@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #AEC6CF;
+}
+
+body, nav a, #breed-info button {
+  color: #fff;
+}
+
+nav, .content, .fact, .fact-header, #game{
+  text-align: center;
+}
+
+nav a, #breed-info button{
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a.active, #score {
+  font-weight: bold;
+}
+
+.content, .random-facts, #breed-info {
+  display: flex;
+}
+.content{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-wrapper {
+  width: 33%;
+}
+
+.interests-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.random-facts {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fact {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.fact p, #breed-info button {
+  font-size: 16px;
+  margin: 0;
+}
+
+.fact-header, .fact-icon {
+  font-size: 24px;
+}
+
+.fact-icon {
+  margin-right: 10px;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skills h2 {
+  margin-top: 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills ul li, .fact{
+  margin-bottom: 10px;
+}
+
+.resume-image {
+  margin: auto;
+}
+
+.resume-image img {
+  max-width: 300px;
+  height: auto;
+}
+
+.hidden, #game-view.hidden, #menu-view.hidden {
+  display: none;
+}
+
+#game, .random-facts, .content {
+  margin-top: 50px;
+}
+
+#facts {
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#score {
+  font-size: 20px;
+}
+
+#breed-info {
+  margin-top: 20px;
+}
+
+#breed-info button {
+  background-color: #4682B4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#info {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

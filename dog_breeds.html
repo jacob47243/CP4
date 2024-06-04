@@ -1,0 +1,38 @@
+<!--
+     Name: Jacob Schuster 
+     CS 132 Spring 2024
+     Date: June 3, 2024
+     This is my dog_breeds.html. It contains the navigation bar that is consistent with the other pages and has 3 buttons and an info section
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dog Breeds Information</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="utils.js"></script>
+    <script defer src="dogs.js"></script>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="map.html">Geography Game</a>
+            <a href="dog_breeds.html" class="active">Dog Breeds</a>
+        </nav>
+    </header>
+
+    <div class="content">
+
+      <div id="breed-info">
+        <button id="PWD">Portuguese Water Dog</button>
+        <button id="Doodle">Doodle</button>
+        <button id="AShepherd">Australian Shepherd</button>
+      </div>
+    </div>
+
+    <div id="dogInfo"></div>
+
+  </body>
+</html>
